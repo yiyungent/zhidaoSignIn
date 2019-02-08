@@ -65,9 +65,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="cookie.txt">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
+    <Content Include="cookie.txt" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

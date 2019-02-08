@@ -28,7 +28,7 @@ namespace zhidaoSignIn.WebApp
             string result = string.Empty;
 
             #region 读取 cookie
-            string cookiePath = AppDomain.CurrentDomain.BaseDirectory + "/cookie.txt";
+            string cookiePath = AppDomain.CurrentDomain.BaseDirectory + "cookie.txt";
             string cookie = File.ReadAllText(cookiePath);
             if (string.IsNullOrEmpty(cookie))
             {
