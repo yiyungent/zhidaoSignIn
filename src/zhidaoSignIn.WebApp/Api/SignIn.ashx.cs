@@ -22,11 +22,11 @@ namespace zhidaoSignIn.WebApp.Api
                 Zhidao zhidao = new Zhidao();
                 if (zhidao.SignIn(bduss))
                 {
-                    context.Response.Write("签到成功");
+                    context.Response.Write("{ \"code\": 1, \"message\": \"签到成功\",  \"signTime\": \"" + DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss") + "\" }");
                 }
                 else
                 {
-                    context.Response.Write("签到失败");
+                    context.Response.Write("{ \"code\": -1, \"message\": \"签到失败\",  \"signTime\": \"" + DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss") + "\" }");
                 }
             }
         }
