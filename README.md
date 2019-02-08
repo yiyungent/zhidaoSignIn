@@ -15,7 +15,7 @@ zhidaoSignIn 告别每天手动签到，让程序每天帮你签到
 
 ## 快速搭建
 
-1. 下载发布部署包 <a href="https://github.com/yiyungent/zhidaoSignIn/releases/download/v0.1.0/Publish.zip" target="_blank">Publish.zip</a>
+1. 下载发布部署包 <a href="https://github.com/yiyungent/zhidaoSignIn/releases/download/v0.1.1/Publish.zip" target="_blank">Publish.zip</a>
 2. 浏览器打开 百度知道，通过 F12 获取其中的 Cookie
 3. 解压 Publish.zip，将 Publish 文件夹下的所有文件上传到 Web服务器的根目录
 4. 下面以GearHost的免费虚拟主机为例 进行搭建
